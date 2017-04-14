@@ -48,10 +48,6 @@ public struct Money:CustomStringConvertible,Mathematics {
         return"\(currency)\(amount)"
     }
     
-//    public init(amount:Int,currency:String){
-//        self.amount = amount
-//        self.currency = currency
-//    }
     
     // convert
     public func convert(_ to: String) -> Money {
@@ -214,9 +210,7 @@ public struct Money:CustomStringConvertible,Mathematics {
     }
 }
 
-//let ten = Money(amount: 10, currency: "GBP")
-//let five = Money(amount: 5, currency: "USD")
-//print(ten.subProc(value: five))
+
 
 ////////////////////////////////////
 // Job
@@ -289,8 +283,7 @@ open class Job:CustomStringConvertible{
     
 }
 
-//let value = Job(title: "manager", type: Job.JobType.Hourly(14))
-//print(value)
+
 ////////////////////////////////////
 // Person
 //
@@ -383,14 +376,7 @@ open class Family:CustomStringConvertible {
     }
 }
 
-//let hus = Person(firstName: "John", lastName: "Smith", age: 37)
-//let wife = Person(firstName: "marie", lastName: "smith", age: 30)
-//let child = Person(firstName: "Hach", lastName: "smith", age: 20)
-//let child2 = Person(firstName: "DormiHaram", lastName: "smith", age: 20)
-//let smith = Family(spouse1: hus, spouse2: wife)
-//let s = smith.haveChild(child)
-//let s1 = smith.haveChild(child2)
-//print(smith.description)
+
 
 
 ////////////////////////////////////
@@ -412,9 +398,6 @@ public extension Double{
     }
 }
 
-//var ten = 10.0
-//var newMoney = ten.USD
-//print(newMoney.currency)
 
 
 
